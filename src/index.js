@@ -18,10 +18,8 @@ let app = new Application({
     resolution: 1
   }
 );
-
 //Add the canvas that Pixi automatically created for you to the HTML document
 document.body.appendChild(app.view);
-
 
 loader
   .add(["images/treasureHunter.json"].concat(data.map(item => item.url)))
